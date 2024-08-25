@@ -1,0 +1,68 @@
+{
+  "branches": [
+    { "id": 1, "name": "Branch A" },
+    { "id": 2, "name": "Branch B" },
+    { "id": 3, "name": "Branch C" },
+    { "id": 4, "name": "Branch D" }
+  ],
+  "departments": [
+    { "id": 1, "branchId": 1, "name": "Cardiology" },
+    { "id": 2, "branchId": 1, "name": "Neurology" },
+    { "id": 3, "branchId": 2, "name": "Pediatrics" },
+    { "id": 4, "branchId": 2, "name": "Oncology" },
+    { "id": 5, "branchId": 3, "name": "Dermatology" },
+    { "id": 6, "branchId": 3, "name": "Orthopedics" },
+    { "id": 7, "branchId": 4, "name": "Gastroenterology" }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "departmentId": 1,
+      "title": "Morning Shift with Dr. Smith",
+      "start": "2024-08-25T09:00:00",
+      "end": "2024-08-25T12:00:00"
+    },
+    {
+      "id": "2",
+      "departmentId": 2,
+      "title": "Afternoon Shift with Dr. Brown",
+      "start": "2024-08-24T13:00:00",
+      "end": "2024-08-24T16:00:00"
+    },
+    {
+      "id": "3",
+      "departmentId": 3,
+      "title": "Evening Shift with Dr. Green",
+      "start": "2024-08-24T17:00:00",
+      "end": "2024-08-24T20:00:00"
+    },
+    {
+      "id": "4",
+      "departmentId": 4,
+      "title": "Morning Shift with Dr. White",
+      "start": "2024-08-25T09:00:00",
+      "end": "2024-08-25T12:00:00"
+    },
+    {
+      "id": "5",
+      "departmentId": 5,
+      "title": "Afternoon Shift with Dr. Black",
+      "start": "2024-08-25T13:00:00",
+      "end": "2024-08-25T16:00:00"
+    },
+    {
+      "id": "6",
+      "departmentId": 6,
+      "title": "Evening Shift with Dr. Blue",
+      "start": "2024-08-25T17:00:00",
+      "end": "2024-08-25T20:00:00"
+    },
+    {
+      "id": "7",
+      "departmentId": 7,
+      "title": "Morning Shift with Dr. Yellow",
+      "start": "2024-08-26T09:00:00",
+      "end": "2024-08-26T12:00:00"
+    }
+  ]
+}
